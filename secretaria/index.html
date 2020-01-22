@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/estiloMaestro.css" />
+  
+
+    
+  </head>
+
+  <body>
+
+    <header>
+      <label for="botonmenu"><img id="imglabel" src="../img/label.png"/></label>
+      <p>Greatfood</p>
+    </header>
+    <input type="checkbox" name="botonmenu" id="botonmenu" />
+    <nav>
+      <a href="../index.html">Inicio</a>
+      <a href="../OfertaEducativa/index.html">Quienes Somos</a>
+      <a href="../">Servicios y productos</a>
+      <a id="seleccionado" href="#">Area personal</a>
+      <a href="../Contacto/index.html">Contacto</a>
+    </nav>
+    <main>
+      <section>
+        <article>
+    <form onsubmit="return false" name=formulario class="form-horizontal">
+      <div class="form-group">
+        <label for="input-nombre" class="col-sm-2 control-label">Nombre</label>
+        <div class="col-sm-5">
+          <input type="text" class="input_personalizado" id="input-nombre" placeholder="Nombre">
+        </div>
+      </div>
+      <br>
+      
+      <div class="form-group">
+        <label for="input-apellido" class="col-sm-2 control-label">Contraseña</label>
+        <div class="col-sm-5">
+          <input type="text" class="input_personalizado" id="input-apellido-1" name="contraseña" placeholder="Apellido Uno">
+        </div>
+       
+      </div>
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class="boton_personalizado" onclick="Validar()">Enviar formulario</button>
+        </div>
+      </div>
+    </form>
+    <div  id="capa">hehe</div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      IES Leonardo da Vinci <br />C/ Blas Cabrera,90 28044 MADRID <br />91 706
+      30 48 / 91 706 49 70 Fax: 91 706 12 65
+    </footer>
+  </body>
+  <script src="../js/Acceso.js"></script>
+</html>

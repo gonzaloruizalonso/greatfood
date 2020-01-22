@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title></title>
+		<meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/estiloMaestro.css">
+		<link rel="stylesheet" href="./css/estilosContacto.css">
+		<script type="text/javascript" src="../js/Enviado.js"></script>
+	</head>
+	<body>
+  	<header>
+			<label for="botonmenu"><img id="imglabel" src="../img/label.png"></label>
+			<p>IES Leonardo da Vinci</p>
+  	</header>
+		<input type="checkbox" name="botonmenu" id="botonmenu" >
+		<nav>
+			<a href="../index.html">Inicio</a>
+			<a href="../OfertaEducativa/index.html">Quienes Somos</a>
+			<a href="../Noticias/index.html">Servicios y productos</a>
+			<a href="../Secretaria/index.html">Area personal</a>
+			<a id="seleccionado" href="#">Contacto</a>
+		</nav>
+	  <main>
+  		<section>
+	
+			<article>
+				<div class="contenido">
+					<form role="form">
+						<div class="form-group">
+							<label for="ejemplo_email_1" >Email</label>
+							<input type="email" class="form-control" id="ejemplo_email_1" placeholder="Introduce tu email" required />
+						</div>
+						Mensaje:
+						<br>
+						<textarea name="opinion" rows="8" cols="60" required></textarea>
+					  <div class="form-group">
+						<label for="ejemplo_archivo_1">Adjuntar un archivo</label>
+						<input type="file" id="ejemplo_archivo_1" />
+					  </div>
+					  <div class="checkbox">
+						<label> <input type="checkbox" required /> <a href="./Privacidad/politicas.html"> Acepta las Políticas de Privacidad</a> </label>
+					  </div>
+					  ¿Cuánto te ha gustado la página? <input type="range" name="critica" id="critica" min="0" max="100">
+					  <br>
+					  <button type="submit" class="btn btn-default" onsubmit="Enviado()">Enviar</button>
+					  <button type="reset" value="borrar">Borrar</button>
+					</form>
+				</div>
+			</article>
+  		 <article>
+				<div class="contenido">
+					<a href="https://www.facebook.com/iesleonardodavincimadrid" target="_blank"><img src="./img/facebook.jpg"></a>
+					<br><h1>Contáctanos mediante Facebook</h1><br><br>
+					<a href="https://twitter.com/iesleonardodv" target="_blank"><img src="./img/twitter.jpg"></a>
+					<br><h1>Contáctanos mediante Twitter</h1><br>
+				</div>
+  		 </article>
+			<article>
+				<div class="contenido">
+					<h3>Telefono: 91 706 30 48 / 91 706 49 70 <br>Fax: 91 706 12 65 </h3><br>
+				</div>
+			</article>
+  		</section>
+  	</main>
+		<footer>
+			IES Leonardo da Vinci <br>C/ Blas Cabrera,90 28044 MADRID <br>91 706 30 48 / 91 706 49 70 Fax: 91 706 12 65
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,17 @@
+.botones{
+  background-color: #112d4e;
+  padding: 7px;
+  margin-bottom: 3px;
+}
+.botones:hover{
+  background-color: #3f72af;
+}
+.botones * p{
+  color: white;
+}
+section * a{
+  color: #112d4e;
+}
+section * a:hover{
+  color: #3f72af;
+}
